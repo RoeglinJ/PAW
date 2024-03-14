@@ -160,9 +160,9 @@ If you find this running wheel useful and use it in your experiments, please [ci
 ### 2. USER GUIDE ###
 - #### 2.1 Programming the Arduino Microcontroller ### 
   - Download the latest [Arduino IDE](https://www.arduino.cc/en/software)
-  - Open this application and, using the *Manage Libraries...* function in the *Tools* tab, install the following libraries:
-    - DS3231 (This will allow us to control the DS3231 RTC)
+  - Open this application and, using the *Manage Libraries...* function in the *Tools* tab, install the following library:
     - SD (This will allow us to interface into the MicrSD Card)
+  - From the [PAW GitHub Page ](https://github.com/dterstege/PAW/blob/main/PAW/DS3231/README.md), download the DS3231 library. This library has been ported from [Rinky-Dink Electronics](http://www.rinkydinkelectronics.com/library.php?id=73). Add this library to the *libraries* subfolder within your Arduino directory.
   - Open the [PAW Arduino Code](https://github.com/dterstege/PAW/tree/main/PAW) in the IDE
   - Set the date and time for the RTC by adjusting the following lines:
   - 
