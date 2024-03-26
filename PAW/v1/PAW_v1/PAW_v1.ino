@@ -60,8 +60,8 @@ void setup()
   rtc.begin();
   
   // The following lines can be uncommented to set the date and time
-  rtc.setTime(17, 30, 00);     // Set the time to hh:mm:ss (24hr format)
-  rtc.setDate(21, 9, 2023);   // Set the date to dd, mm, yyyy
+  rtc.setTime(18, 37, 00);     // Set the time to hh:mm:ss (24hr format)
+  rtc.setDate(3, 13, 2023);   // Set the date to dd, mm, yyyy
 
   pinMode(sensor, INPUT); //set hall effect sensor pin as input
 
